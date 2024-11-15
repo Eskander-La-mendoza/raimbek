@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор на JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Калькулятор на JavaScript</h1>
+        <div class="operation">
+            <input type="number" id="input1" placeholder="Введите число">
+            <span>+</span>
+            <input type="number" id="input2" placeholder="Введите число">
+            <span>=</span>
+            <span id="result1">0</span>
+            <button onclick="calculate('add')">Посчитать</button>
+        </div>
+        <div class="operation">
+            <input type="number" id="input3" placeholder="Введите число">
+            <span>-</span>
+            <input type="number" id="input4" placeholder="Введите число">
+            <span>=</span>
+            <span id="result2">0</span>
+            <button onclick="calculate('subtract')">Посчитать</button>
+        </div>
+        <div class="operation">
+            <input type="number" id="input5" placeholder="Введите число">
+            <span>*</span>
+            <input type="number" id="input6" placeholder="Введите число">
+            <span>=</span>
+            <span id="result3">0</span>
+            <button onclick="calculate('multiply')">Посчитать</button>
+        </div>
+        <div class="operation">
+            <input type="number" id="input7" placeholder="Введите число">
+            <span>/</span>
+            <input type="number" id="input8" placeholder="Введите число">
+            <span>=</span>
+            <span id="result4">0</span>
+            <button onclick="calculate('divide')">Посчитать</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
